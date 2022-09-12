@@ -118,20 +118,6 @@ void system()
 	while (true)
 	{
 		int choice = Menu();
-		//switch (choice)
-		//{
-		//case(1):
-		//	add_new_patient();
-		//case(2):
-		//	print_all_patients();
-		//case(3):
-		//		get_next_patient();
-		//case(4):
-		//	break;
-		//case(5):
-		//	Menu();
-		//}
-
 		if (choice == 1)
 			add_new_patient();
 		else if (choice == 2)
